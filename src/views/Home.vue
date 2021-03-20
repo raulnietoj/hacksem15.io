@@ -6,7 +6,7 @@
             <ListComponent v-bind:listado="lista" />
         </main>
         <FormComponent v-bind:open="open" v-bind:item="item" />
-        <ConfirmacionComponent titulo="Mensaje" mensaje="¿Seguro de Eliminar Registro?" confirm-text="Aceptar" cancel-text="Cancelar" v-bind:open="confirm" :cancel-callback="btnCancelarEliminar" :confirm-callback="btnConfirmarEliminar" />
+        <ConfirmacionComponent titulo="Mensaje" mensaje="¿Seguro de Eliminar Video?" confirm-text="Aceptar" cancel-text="Cancelar" v-bind:open="confirm" :cancel-callback="btnCancelarEliminar" :confirm-callback="btnConfirmarEliminar" />
     </div>
 </template>
 
